@@ -1,0 +1,40 @@
+@import url("./css/header.css");
+@import url("./css/banner.css");
+@import url("./css/sections-produtos.css");
+@import url("./css/rodape.css");
+
+:root {
+    --cinza-fonte: #A2A2A2;
+    --cinza-background: #F5F5F5;
+    --branco: #FFFFFF;
+    --cinza-texto: #464646;
+    --azul: #2A7AE4;
+    --background-rodape: #EAF2FD;
+    --fonte: 'Montserrat';
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho, .banner__box, .conteudo__principal, .rodape__container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conteudo__principal {
+    margin-top: 4rem;
+}
+
+.desenvolvedor {
+    padding: 1rem 0;
+}
+
+.desenvolvedor p {
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-fonte);
+    text-align: center;
+    margin: 10px 0;
+}

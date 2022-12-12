@@ -1,0 +1,46 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 25px 0;
+}
+
+.cabecalho__logo {
+    width: 140px;
+    margin-right: 4rem;
+}
+
+.cabecalhoo__logo__pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa {
+    display: flex;
+}
+
+.search--text {
+    width: 300px;
+    color: var(--cinza-fonte);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pesquisa, .search--text, .search {
+    border: none;
+    cursor: pointer;
+    background: var(--cinza-background);
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.login {
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: transparent;
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    cursor: pointer;
+}

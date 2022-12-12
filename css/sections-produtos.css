@@ -1,0 +1,63 @@
+.produtos__lista {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    grid-template-rows: auto;
+    column-gap: 5px;
+    justify-content: space-between;
+}
+
+.sessao__console {
+    margin: 4.5rem 0;
+}
+
+/* Descrição de carrosel */
+
+.titulo__section {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--cinza-texto);
+}
+
+.sessao__carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.carrossel__vertudo a {
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--azul);
+    align-self: baseline;
+    background: url("./img/verTudo_seta.svg") no-repeat;
+    background-position: right;
+}
+
+/* Estilização Produto, valor e ver produto */
+
+.produto--descricao {
+    margin-top: 7px;
+}
+
+.produto--nome {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cinza-texto);
+}
+
+.produto--valor {
+    margin: 7px 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--cinza-texto);
+}
+
+.ver-produto {
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: 700;
+}

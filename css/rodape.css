@@ -1,0 +1,63 @@
+.rodape {
+    background-color: var(--background-rodape);
+    margin-top: 3.5rem;
+    padding: 4rem 0;
+}
+
+.rodape__container {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+.infos__itens  {
+    margin-bottom: 1.5rem;
+}
+
+.infos__itens a {
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza-texto);
+    cursor: pointer;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__titulo {
+    font-family: var(--fonte);
+    font-size: 16px;
+    color: var(--cinza-texto);
+    font-weight: 600;
+    margin-bottom: 1rem
+}
+
+.campo__mensagem {
+    margin: .5rem 0;
+}
+
+.campo {
+    border: none;
+    box-shadow: 0px 1px 1px gray;
+    height: 50px;
+}
+
+.botao {
+    width: 30%;
+    background-color: var(--azul);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--branco);
+    padding: .8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transition: 1s;
+    background-color: rgb(76, 0, 255);
+}
+
